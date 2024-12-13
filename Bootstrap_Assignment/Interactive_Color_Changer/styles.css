@@ -1,0 +1,24 @@
+/* Container for centering elements and spacing */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style for the color box */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc; /* default color */
+    margin-bottom: 20px;
+}
+
+/* Style for the change color button */
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+Interactive_Color_Changer
